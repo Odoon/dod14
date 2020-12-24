@@ -1,0 +1,13 @@
+# Changes here will be overwritten by Copier
+_commit: v2.6.1-6-g58f1bb9
+_src_path: gh:Odoon/odoon-copier-template.git
+odoo_dbfilter: .*
+odoo_initial_lang: en_US
+odoo_listdb: true
+odoo_oci_image: docker.io/ibees/dod14
+odoo_version: 14.0
+postgres_dbname: "111"
+postgres_username: odoo
+postgres_version: 13
+project_author: iBees
+project_name: dod14
