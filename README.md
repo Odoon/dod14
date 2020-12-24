@@ -8,7 +8,8 @@
 Image built from this repo is hosted at
 [docker.io/ibees/dod14](https://hub.docker.com/repository/docker/ibees/dod14)
 
-This project is a Doodba scaffolding. Check upstream docs on the matter:
+This project is based on several open source projects. Please learn these before working
+on this repo:
 
 - [General Doodba docs](https://github.com/Tecnativa/doodba).
 - [Doodba copier template docs](https://github.com/Tecnativa/doodba-copier-template)
