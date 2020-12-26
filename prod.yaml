@@ -3,7 +3,7 @@ version: "2.4"
 services:
   odoo:
     extends:
-      file: common.yaml
+      file: common-prod.yaml
       service: odoo
     restart: unless-stopped
     env_file:
@@ -19,19 +19,18 @@ services:
     labels:
       doodba.domain.main: ""
 
-  db:
-    extends:
-      file: common.yaml
-      service: db
-    env_file:
-      - .docker/db-creation.env
-    restart: unless-stopped
+  # db:
+  #   extends:
+  #     file: common.yaml
+  #     service: db
+  #   env_file:
+  #     - .docker/db-creation.env
+  #   restart: unless-stopped
+# networks:
+#   default:
+#     driver_opts:
+#       encrypted: 1
 
-networks:
-  default:
-    driver_opts:
-      encrypted: 1
-
-volumes:
-  filestore:
-  db:
+# volumes:
+#   filestore:
+#   db:

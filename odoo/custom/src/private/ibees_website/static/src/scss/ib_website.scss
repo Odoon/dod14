@@ -1,0 +1,13 @@
+// Hide Odoo's custom UL from frontend seo configurator
+
+.seo_name_pre {
+    display: none !important;
+}
+
+#website_seo_name {
+    display: none !important;
+}
+
+.seo_name_post {
+    display: none !important;
+}

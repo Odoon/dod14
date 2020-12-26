@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+   <template id="ib_layout" name="iBees Main layout" inherit_id="website.layout">
+
+   <xpath expr="//head/meta[@name='generator']" position="replace">
+  <meta name="generator" t-att-content="website.domain" />
+   </xpath>
+
+</template>
+</odoo>
