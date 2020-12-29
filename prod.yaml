@@ -11,3 +11,7 @@ services:
         ODOO_VERSION: "14.0"
         UID: "${UID:-1000}"
         GID: "${GID:-1000}"
+
+networks:
+  default:
+    internal: true

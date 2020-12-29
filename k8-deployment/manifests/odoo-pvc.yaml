@@ -4,7 +4,7 @@ metadata:
   labels:
     app: odoo
   name: odoo-data-claim
-  namespace: odoo14
+  namespace: dod14
   # annotations:
   #   appuio.ch/backup: "true"
 spec:
