@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  labels:
+    app: odoo
+  name: odoo
+  namespace: odoo14
+  annotations:
+    kubernetes.io/ingress.class: nginx
+spec:
+  rules:
+    - host: packhit.co.uk
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              serviceName: odoo
+              servicePort: 8069
