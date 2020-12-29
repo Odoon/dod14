@@ -4,7 +4,7 @@ metadata:
   name: dod14
   namespace: argocd
 spec:
-  project: dod14
+  project: default
   source:
     repoURL: https://github.com/marcel-dempers/docker-development-youtube-series.git
     targetRevision: HEAD
