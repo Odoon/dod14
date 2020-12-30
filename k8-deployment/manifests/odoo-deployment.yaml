@@ -17,6 +17,9 @@ spec:
       labels:
         app: odoo
     spec:
+      securityContext:
+        runAsUser: 1000
+        fsGroup: 1000
       containers:
         - image: docker.io/ibees/dod14:14.0-prod
           name: web
