@@ -38,6 +38,8 @@ spec:
               value: "true"
             - name: ADMIN_PASSWORD
               value: "111"
+            - name: LIST_DB
+              value: "true"
           imagePullPolicy: Always
           ports:
             - name: http
