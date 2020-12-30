@@ -27,6 +27,8 @@ spec:
               value: datalake
             - name: PGUSER
               value: testuser
+            - name: PGDATABASE
+              value: ""
             - name: DB_FILTER
               value: ".*"
             - name: PROXY_MODE
