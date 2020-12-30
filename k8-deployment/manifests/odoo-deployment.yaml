@@ -27,9 +27,9 @@ spec:
             - name: PGHOST
               value: hippo.pgo.svc.cluster.local
             - name: PGPASSWORD
-              value: datalake
+              value: n(:7Hqcs\.|/|]A7pjY4tkU<
             - name: PGUSER
-              value: testuser
+              value: odoo
             - name: PGDATABASE
               value: ""
             - name: DB_FILTER
