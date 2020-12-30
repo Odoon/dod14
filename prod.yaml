@@ -2,7 +2,7 @@ version: "2.4"
 
 services:
   odoo:
-    image: docker.io/ibees/dod14:14.0
+    image: docker.io/ibees/dod14:14.0-prod
     build:
       context: ./odoo
       labels:

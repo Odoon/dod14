@@ -18,15 +18,15 @@ spec:
         app: odoo
     spec:
       containers:
-        - image: docker.io/ibees/dod14:14.0
+        - image: docker.io/ibees/dod14:14.0-prod
           name: web
           env:
             - name: PGHOST
-              value: knotty-whip-postgresql-ha-pgpool.default.svc.cluster.local
+              value: hippo.pgo.svc.cluster.local
             - name: PGPASSWORD
-              value: S64O8olMJZ
+              value: datalake
             - name: PGUSER
-              value: odoo
+              value: testuser
             - name: DB_FILTER
               value: ".*"
             - name: PROXY_MODE
